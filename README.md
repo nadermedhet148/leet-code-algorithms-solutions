@@ -14,5 +14,6 @@ ____________________________________________
   - 4Sum
   - Remove Nth Node From End of List
   - Generate Parentheses (backtracking)
-  -  Merge k Sorted Lists
-  -  Swap Nodes in Pairs
+  - Merge k Sorted Lists
+  - Swap Nodes in Pairs
+  - Reverse Nodes in k-Group
