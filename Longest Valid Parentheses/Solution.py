@@ -25,4 +25,4 @@ class Solution:
 
 s = Solution()
 
-print(s.longestValidParentheses(')()())'))
+s.longestValidParentheses(')()())')

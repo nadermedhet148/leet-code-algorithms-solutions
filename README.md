@@ -21,3 +21,4 @@ ____________________________________________
   - Substring with Concatenation of All Words 
   - Next Permutation
   - Longest Valid Parentheses
+  - Search in Rotated Sorted Array
