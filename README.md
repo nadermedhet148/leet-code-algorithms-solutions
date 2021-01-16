@@ -22,3 +22,4 @@ ____________________________________________
   - Next Permutation
   - Longest Valid Parentheses
   - Search in Rotated Sorted Array
+  - Find First and Last Position of Element in Sorted Array
