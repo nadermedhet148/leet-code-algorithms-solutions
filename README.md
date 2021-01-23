@@ -24,3 +24,4 @@ ____________________________________________
   - Search in Rotated Sorted Array
   - Find First and Last Position of Element in Sorted Array
   - Valid Sudoku
+  - Sudoku Solver
