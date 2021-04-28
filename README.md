@@ -32,3 +32,5 @@ ____________________________________________
   - Multiply Strings
   - Wildcard Matching
   - Jump Game II
+  - Permutations
+  - Unique Permutations

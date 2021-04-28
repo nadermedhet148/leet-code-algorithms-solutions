@@ -11,5 +11,7 @@ class Solution:
         print(minJumps)
         return minJumps[-1]
 
+
+
 s = Solution().jump([2,3,1,1,4])
 print(s)
