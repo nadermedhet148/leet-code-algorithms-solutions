@@ -34,3 +34,5 @@ ____________________________________________
   - Jump Game II
   - Permutations
   - Unique Permutations
+  - Rotate Image
+
