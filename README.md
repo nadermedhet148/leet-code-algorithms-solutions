@@ -36,3 +36,4 @@ ____________________________________________
   - Unique Permutations
   - Rotate Image
   - Group Anagrams
+  - N-Queens
