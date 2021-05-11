@@ -10,7 +10,6 @@ class Solution:
             if not merged or merged[-1][1] < interval[0]:
                 merged.append(interval)
             else:
-                x = merged[-1][1];
                 merged[-1][1] = max(merged[-1][1], interval[1])
 
         return merged
