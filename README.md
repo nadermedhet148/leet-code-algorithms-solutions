@@ -41,3 +41,4 @@ ____________________________________________
   - Spiral Matrix 
   - Jump Game
   - Merge Intervals
+  - Insert Interval
