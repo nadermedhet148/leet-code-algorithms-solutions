@@ -40,3 +40,4 @@ ____________________________________________
   - N-Queens II
   - Spiral Matrix 
   - Jump Game
+  - Merge Intervals
