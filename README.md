@@ -43,3 +43,5 @@ ____________________________________________
   - Merge Intervals
   - Insert Interval
   - Spiral Matrix II
+  - Permutation Sequence
+  - Rotate List
