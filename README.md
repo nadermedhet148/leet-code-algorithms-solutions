@@ -50,3 +50,5 @@ ____________________________________________
   - Minimum Path Sum
   - Text Justification
   - Valid Number
+  - Simplify Path
+  - Simplify Path
