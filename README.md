@@ -48,3 +48,5 @@ ____________________________________________
   - Unique Paths
   - Unique Paths II
   - Minimum Path Sum
+  - Text Justification
+  - Valid Number
