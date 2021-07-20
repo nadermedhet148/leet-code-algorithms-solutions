@@ -58,3 +58,4 @@ ____________________________________________
   - Minimum Window Substring
   - Combinations
   - Subsets
+  - Word Search
