@@ -59,3 +59,5 @@ ____________________________________________
   - Combinations
   - Subsets
   - Word Search
+  - Remove Duplicates from Sorted Array II
+  - Search in Rotated Sorted Array II
