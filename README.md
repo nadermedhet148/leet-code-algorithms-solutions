@@ -63,3 +63,4 @@ ____________________________________________
   - Search in Rotated Sorted Array II
   - Remove Duplicates from Sorted List II
   - Largest Rectangle in Histogram
+  - Maximal Rectangle
