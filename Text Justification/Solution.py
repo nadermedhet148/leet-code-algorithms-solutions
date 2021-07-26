@@ -40,3 +40,5 @@ class Solution:
 s = Solution()
 
 print(s.fullJustify(["This", "is", "an", "example", "of", "text", "justification."],16))
+
+
