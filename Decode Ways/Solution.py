@@ -24,3 +24,5 @@ class Solution:
 s = Solution()
 
 print(s.numDecodings(("123")))
+
+
