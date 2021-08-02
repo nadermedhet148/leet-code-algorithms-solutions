@@ -5,42 +5,31 @@ class ListNode:
         self.next = next
 
 class Solution:
+ 
     def reverseBetween(self, head, m, n):
-        """
-        :type head: ListNode
-        :type m: int
-        :type n: int
-        :rtype: ListNode
-        """
+        if m == n:
+            return head
 
-        if not head:
-            return None
+        dummyNode = ListNode(0)
+        dummyNode.next = head
+        pre = dummyNode
 
-        left, right = head, head
-        stop = False
-        def recurseAndReverse(right, m, n):
-            nonlocal left, stop
+        for i in range(m - 1):
+            pre = pre.next
+        
+        # reverse the [m, n] nodes
+        reverse = None
+        cur = pre.next
+        for i in range(n - m + 1):
+            next = cur.next
+            cur.next = reverse
+            reverse = cur
+            cur = next
 
-            if n == 1:
-                return
+        pre.next.next = cur
+        pre.next = reverse
 
-            right = right.next
-
-            if m > 1:
-                left = left.next
-
-            recurseAndReverse(right, m - 1, n - 1)
-
-            if left == right or right.next == left:
-                stop = True
-
-            if not stop:
-                left.val, right.val = right.val, left.val
-
-                left = left.next           
-
-        recurseAndReverse(right, m, n)
-        return head
+        return dummyNode.next
 
 
 
