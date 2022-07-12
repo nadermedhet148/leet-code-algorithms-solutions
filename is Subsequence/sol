@@ -1,0 +1,22 @@
+from cupshelpers import Printer
+
+
+class Solution(object):
+    def isSubsequence(self, s, t):
+        slen = len(s)
+        tlen = len(t)
+        tindex = sIndex = 0
+
+
+        while tindex < tlen and sIndex < slen:
+            if(s[sIndex] == t[tindex]):
+                sIndex +=1
+            tindex +=1
+        
+        if sIndex == slen:
+            return True
+        return False
+
+
+print(Solution().isSubsequence('aaaaaa' , 'bbaaaa')    )
+        
